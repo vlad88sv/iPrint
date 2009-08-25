@@ -1,0 +1,1 @@
+<?php $DB_motor = "localhost";$DB_usuario = "mupi";$DB_clave = "mup1es";$DB_base = "crystalworld_db";$MapKey = "ABQIAAAASN5hkWhvednkFD23rB1SbBTxBc-9shzO5286p81HWE5kDcg4wBS90UGGHVdZSGpzNlRato3sD_3atw"; ?>

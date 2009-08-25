@@ -1,0 +1,73 @@
+.chromestyle{
+display:table;
+vertical-align:middle;
+margin:0;
+padding:0;
+width: 100%;
+height: 42px;
+line-height:42px;
+font-weight: bold;
+}
+
+.chromestyle ul{
+position: absolute;
+display:table-cell;
+vertical-align:middle;
+margin:0;
+width: 100%;
+height: 42px;
+line-height:42px;
+padding:0;
+background: url(chromebg.gif) top center repeat-x; /*THEME CHANGE HERE*/
+text-align: center; /*set value to "left", "center", or "right"*/
+padding-top:15px;
+}
+
+.chromestyle ul li{
+line-height: 42px;
+vertical-align:middle;
+display: inline;
+text-align: center;
+margin-right: 10px;
+}
+
+.chromestyle ul li:hover{
+opacity:0.8;
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: white;
+width: 200px;
+visibility: hidden;
+filter: progid:DXImageTransform.Microsoft.Shadow(color=#CACACA,direction=135,strength=4); /*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0;
+}
